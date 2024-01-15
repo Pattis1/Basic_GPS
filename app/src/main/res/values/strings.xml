@@ -1,0 +1,5 @@
+<resources>
+    <string name="address_label">Address: %s</string>
+    <string name="travel_info_format">%s için Seyahat Bilgisi:\nSüre: %s\nMesafe: %s</string>
+    <string name="app_name">GPSODEV</string>
+</resources>

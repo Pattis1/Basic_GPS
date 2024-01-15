@@ -1,0 +1,31 @@
+<!-- custom_info_dialog.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address" />
+
+    <!-- ImageView for Location Image -->
+    <ImageView
+        android:id="@+id/locationImageView"
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:id="@+id/textViewTravelInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/locationImageView"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+</LinearLayout>
